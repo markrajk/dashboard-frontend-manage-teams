@@ -197,11 +197,25 @@ body {
     //border-bottom: 1px solid #dee2e6;
     z-index: 500;
 
+    & .subtitle {
+      
+
+      & a {
+        color: #1a173b;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+    }
+
+   
+
     &-logout {
       height: 2rem;
       margin: 0;
       font-size: 1.5rem;
       font-weight: 600;
+
+     
       
 
       a {
@@ -261,6 +275,7 @@ body {
 
     & .team-name,
     & .category  {
+      padding: 0 2.7rem;
       margin-right: 3%;
       font-family: 'Lato', sans-serif;
       margin-bottom: 2.3rem;
@@ -269,6 +284,7 @@ body {
       border-radius: 4px;
       border: solid 1.5px #eaebee;
       background-color: #ffffff;
+      
 
       & .btn-custom-outline:not(:last-child) {
         margin-right: 1.1rem;
@@ -309,7 +325,7 @@ body {
       }
 
       & label {
-        margin-left: 2.5rem;
+        // margin-left: 2.5rem;
         margin-right: 2.9rem;
         font-size: 1.8rem;
         font-weight: 700;
@@ -318,8 +334,29 @@ body {
         color: #1a173b;
       }
 
+      & .category-input {
+        min-width: 18rem;
+        //width: 100%;
+        width: 100%;
+        max-width: 28.1rem;
+      }
+
+      & .team-select {
+        padding-left: 1.7rem;
+        width: 20rem;
+        height: 3.5rem;
+        //opacity: 0.1;
+        border-radius: 17px;
+        border: solid 1.5px rgba($color: #000000, $alpha: .1);
+
+        outline: none;
+      }
+
       & input {
-        width: 28.1rem;
+        min-width: 18rem;
+        //width: 100%;
+        width: 100%;
+        max-width: 28.1rem;
         height: 4.7rem;
         padding-left: 1.7rem;
         font-size: 1.5rem;

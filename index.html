@@ -77,10 +77,11 @@
         <!-- RESULTS SECTION -->
         <div class="results">
             <div class="results-header">
-                <div class="results-header-logout">
+                <div class="results-header-logout d-flex justify-content-between">
+                    <p class="subtitle back mb-0 d-flex align-items-center"><a href="#">Teams</a></p>
                     <p class="text-right align-middle"><a href="#">Logout</a> <i class="material-icons align-middle">exit_to_app</i></p>
                 </div>
-                <h2 class="mt-1 align-middle">Create new team</h2>
+                <h2 class="mt-1 align-middle">Manage teams</h2>
             </div>
             
             <div class="results-body">
@@ -91,11 +92,16 @@
                     <div class="col-6">
                         <div class="team-name d-flex align-items-center justify-content-start">
                             <label class="mb-0" for="team-name">Select team</label>
-                        <div>
+                        <div class="d-none d-xl-block">
                             <a href="#" class="btn-custom-outline active">Software</a>
                             <a href="#" class="btn-custom-outline">Sales</a>
                             <a href="#" class="btn-custom-outline">Management</a>
                         </div>
+                        <select class="d-block d-xl-none team-select" name="teams" id="teams">
+                            <option value="software" selected>Software</option>
+                            <option value="software">Sales</option>
+                            <option value="software">Management</option>
+                        </select>
                         </div>
                         <!-- MEMBER CARD -->
                         <div class="team-card bg-white team-card-member">
@@ -751,7 +757,7 @@
                             </div>
 
                             <div class="feedback-buttons d-flex align-items-center justify-content-end">
-                                <a href="" class="feedback-buttons-settings d-flex align-items-center justify-content-center"><i class="material-icons">layers</i>Settings log</a>
+                                <a href="" class="feedback-buttons-settings d-flex align-items-center justify-content-center mr-4"><i class="material-icons">layers</i>Settings log</a>
                                 <a href="" class="feedback-buttons-delete d-flex align-items-center justify-content-center"><i class="material-icons">delete_forever</i> Delete user</a>
                             </div>
 
