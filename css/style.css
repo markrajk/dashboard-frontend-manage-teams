@@ -190,7 +190,6 @@ body {
         letter-spacing: 0.12px;
         color: #1a173b; }
       .results-body .team-name .category-input, .results-body .category .category-input {
-        min-width: 18rem;
         width: 100%;
         max-width: 28.1rem; }
       .results-body .team-name .team-select, .results-body .category .team-select {
@@ -201,7 +200,6 @@ body {
         border: solid 1.5px rgba(0, 0, 0, 0.1);
         outline: none; }
       .results-body .team-name input, .results-body .category input {
-        min-width: 18rem;
         width: 100%;
         max-width: 28.1rem;
         height: 4.7rem;
